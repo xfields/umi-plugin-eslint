@@ -1,0 +1,33 @@
+{
+  "name": "umi-plugin-eslint",
+  "version": "1.0.0",
+  "description": "eslint config plugin from umi",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib --presets=@babel/preset-env"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xfields/umi-plugin-eslint.git"
+  },
+  "keywords": [
+    "umi",
+    "plugin",
+    "eslint"
+  ],
+  "files": [
+    "lib"
+  ],
+  "author": "xfields",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xfields/umi-plugin-eslint/issues"
+  },
+  "homepage": "https://github.com/xfields/umi-plugin-eslint#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
